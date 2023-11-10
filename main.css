@@ -1,0 +1,409 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter&family=Mukta:wght@300&family=Roboto+Condensed:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+    width: 100%;
+}
+/* header css start */
+h1{
+    font-size: 50px;
+    color: black;
+    line-height: 65px;
+}
+h2{
+    font-size: 40px;
+    color:black;
+    line-height: 52px;
+    font-weight: 600;
+}
+h3{
+    font-size: 36px;
+    color: black;
+    line-height: 42px;
+}
+h4{
+    font-size: 32px;
+    color: black;
+}
+h5{
+    font-size: 30px;
+    color: black;
+}
+h6{
+    font-size:20px ;
+    font-weight: 600;
+}
+#header_section{
+    justify-content: left;
+    background-color: black;
+}
+.logo{
+
+    margin-left: 20px;
+    transform: rotate(-18deg);
+    width: 20%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.logo1{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 22px;
+}
+.logo2{
+    color:red;
+    letter-spacing: 5px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+.navbar li{
+    list-style: none;
+    padding: 10px 10px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease ;
+    position:relative;
+}
+.navbar li a :hover , .navbar li a.active {
+      color: brown;
+}
+
+.navbar li a :hover , .navbar li a.active1 {
+    color: brown;
+}
+
+.navbar li a.active::after{
+    width: 50%;
+    content: "";
+    background-color: red;
+    height: 2px;
+    bottom: -4px;
+    margin-left: -39px;
+    position: absolute;
+}
+
+.navbar li a.active1::after{
+    width: 50%;
+    content: "";
+    background-color: red;
+    height: 2px;
+    bottom: -4px;
+    margin-left: -30px;
+    position: absolute;
+}
+
+/* header css end  */
+
+/* hero_banner css start  */
+.hero_banner{
+    margin-top: 40px;
+    margin-left: 100px;
+
+}
+
+.hero_banner pre{
+    margin-top: 10px; 
+    font-weight: 300;
+}
+
+.btn{
+    width: 180px;
+    height: 60px;
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-left: 70px;
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+    font-size:15px;
+}
+
+.btn:hover{
+    background-color: red;
+    
+}
+
+.banner_img{
+    margin-top: -200px;
+    margin-left: 400px;
+    width: 60%;
+    height: 400px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 4px blue ridge;
+}
+
+/* hero_banner end */
+
+/* courses_section */
+.courses_section{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.col-3{
+    width: 400px;
+    height: 500px;
+    margin-left: 5px;
+    border: 2px black ridge;
+    text-align: center;
+    transition: fransform 5s;
+
+}
+
+.col-3:hover{
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    margin-left: 5px;
+    border: 2px black ridge;
+    background-color:wheat ;
+    transform: scale(1.02);
+    cursor: zoom-in;
+    
+    /* transform: scale(0.9);
+    cursor: zoom-out; */
+
+}
+
+.col-3 img{
+    margin-top:20px ;
+    width: 300px;
+    height: 250px;
+}
+
+.col-3 p{
+    margin-top: 20px;
+   
+    font-size: 16px;
+}
+/* courses_section end */
+
+/* contact_section start */
+.contact_section{
+    display: flex;
+
+}
+
+.col-6{
+    text-align: center;
+    width: 600px;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.col-6 img{
+    width: 400px;
+     height: 300px;
+    border-radius: 15px;
+}
+
+.col-6 input{
+    width: 500px;
+    margin-top: 10px;
+    height: 40px;
+
+}
+
+.col-6 button{
+     width: 25%;
+    height:40px ;
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 18px;
+     transition: 1s  ; 
+   
+ }
+
+
+.col-6 button:hover{
+     width: 25%;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+    background-color:red;
+    border-radius: 18px;
+    
+
+  }
+  /* contact_section end  */
+
+  /* footer_section start  */
+  
+  .footer_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+  }
+
+  .footer_section h2{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+
+  .footer_section li {
+    list-style: none;
+    text-align: center;
+  }
+
+  .footer_section li a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+  }
+  
+  .footer_section li a:hover{
+    color:red;
+    text-decoration: none;
+  }
+
+  .fcol-3{
+    width: 400px;
+  }
+
+
+
+  /* contactpage start  */
+  .contactpage{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .fcol-6{
+    width: 600px;
+
+
+  }
+
+  .fcol-6 input{
+    width: 500px;
+    height: 60px;
+  }
+
+  .fcol-6 button{
+    background-color: black;
+    color: white;
+    width: 100px;
+    margin-left: 200px;
+    height: 50px;
+    border-radius: 20px;
+  }
+  
+  .fcol-6 button:hover{
+    background-color:red;
+
+  }
+  
+  
+  /* about_section start  */
+  .about_section{
+    display: flex;
+
+
+  } 
+  .about{
+    margin-left: 500px;
+    justify-content: center;
+  }
+  .acol-2{
+    width: 500px;
+    height: 400px;
+    margin-left: 5px;
+    border: 2px black ridge;
+    text-align: center;
+    background-color: wheat;
+    font-size:20px;
+    
+
+  }
+/* about section end  */
+
+/* courses section start  */
+.courses_section{
+    justify-content: center;
+    padding-top: 20px;
+
+}
+.courseimg{
+    width: 380px;
+    height: 400px;
+    margin-left: 80px;
+    /* border: 2px black ridge; */
+    text-align: center;
+    /* background-color: wheat; */
+    font-size: 20px;
+    padding-top: 20px;
+    transition: transform (4s);
+    
+}
+.courseimg:hover{
+    text-align: center;
+    width: 380px;
+    height: 400px;
+    margin-left: 80px;
+    /* border: 2px black ridge; */
+    /* background-color:wheat ; */
+    transform: scale(1.04);
+    cursor: zoom-in;
+}
+
+
+    /* courses section end  */
+     
+    /* blog section start  */
+.blog1{
+    color: black;
+    font-size:70px;
+    font-weight: bolder;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.blog2{
+    color:red;
+    letter-spacing: 5px;
+    font-size:40px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+    
+}
+.pre1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    padding-top: 30px;
+}
+.info{
+    text-align:center;
+    color: red;
+    font-weight: bolder;
+    font-size: 30px;
+    text-decoration: underline;
+    text-shadow: 50px;
+    padding-top: 18px;
+
+}
